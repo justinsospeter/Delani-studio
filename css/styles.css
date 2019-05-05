@@ -47,15 +47,17 @@ div {
     margin: auto;
     
 }
-section .contact {
-    background-color: brown;
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg")
+ .contact {
+    
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    height: 600px;
 
 }
-section .port {
+.port {
     display: flex;
     flex-direction: row;
 }
-section .services {
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg")
+.services {
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
+    height: 400px;
 }
