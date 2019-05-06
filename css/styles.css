@@ -1,0 +1,36 @@
+section {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    
+}
+header {
+    background-color: black;
+    padding: 20px;
+    color: black;
+    height: 400px;
+}
+div {
+    background-color: yellow;
+    margin: auto;
+    padding: 0px;
+    width: 100px;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+ 
+}
+
+h3 {
+    text-align: center;
+
+}
