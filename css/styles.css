@@ -50,7 +50,9 @@ div {
  .contact {
     
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    background-color: blueviolet;
     height: 600px;
+    
 
 }
 .port {
