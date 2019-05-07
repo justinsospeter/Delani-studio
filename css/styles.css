@@ -55,7 +55,9 @@ footer {
 }
 
 .do img {
-    width: 100%
+    width: 90%;
+    position: relative;
+    right: 60px;
 }
 
 .what-we-do {
@@ -100,7 +102,14 @@ footer {
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
     background-size: 100%;
     text-align: center;
-    height: 300px;
+    height: 500px;
+}
+.c-text {
+    position: relative;
+    left: 600px;
+    top: 20px;
+    color: white;
+
 }
 
 .services {
