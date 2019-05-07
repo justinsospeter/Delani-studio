@@ -19,7 +19,13 @@ header {
     padding: 20px;
     color: white;
     height: 650px;
+    position: relative;
 }
+.text {
+    position: relative;
+    top: 100px;
+}
+
 
 div {
     margin: auto;
@@ -35,22 +41,28 @@ body {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: black;
-    height: 100px;
+    background-color: white;
+    height: 150px;
     color: white;
 
 }
 
 .do {
     background-color: white;
+    height: 500px;
 
 }
 .do img {
     width: 100%
 }
+.what-we-do {
+    position: relative;
+    left: 600px;
+    top: 80px;
+}
 
 .portfolio {
-    background-color: aqua;
+    background-color: white;
     height: 600px;
     -webkit-box-flex: auto;
     -ms-flex: auto;
@@ -87,6 +99,13 @@ footer {
     height: 250px;
     padding: 20px;
     
+}
+
+.s-text {
+    position: relative;
+    bottom: 100px;
+    color: white;
+
 }
 
 div img {
