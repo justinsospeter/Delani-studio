@@ -1,12 +1,17 @@
 section {
     background-color: white;
-    padding: 20px;
+    display: -ms-flexbox;
+    -ms-flex-box-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
     display: flex;
-    flex-direction: row;
     height: 800px;
-    text-align: center;
     
+
 }
+
 header {
     background-color: black;
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
@@ -15,30 +20,57 @@ header {
     color: white;
     height: 650px;
 }
+
 div {
-    background-color: yellow;
     margin: auto;
     width: 100px;
-    
+
 }
+
 body {
     margin: 0px;
     padding: 0px;
 }
+
 footer {
     display: flex;
     flex-direction: row;
     background-color: black;
     height: 100px;
- 
+    color: white;
+
 }
 
 .do {
-    background-color: gray;
+    background-color: white;
+
 }
+.do img {
+    width: 100%
+}
+
 .portfolio {
     background-color: aqua;
+    height: 600px;
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 100%;
+    margin: .0vw;
 }
+.portfolio img {
+    width: 120%;
+    height: auto;
+}
+@media screen and (max-width: 400px) {
+    section .portfolio {
+        margin: 0;
+    }
+    section {
+        padding: 0;
+    }
+}
+
 .contact {
     background-color: brown;
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
@@ -46,10 +78,21 @@ footer {
     text-align: center;
     height: 300px;
 }
+
 .services {
+    background-color: blue;
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 250px;
     padding: 20px;
+    
+}
+
+div img {
+    width: 200px;
+    box-sizing: border-box;
+}
+.middle {
+    flex: 1;
 }
