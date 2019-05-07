@@ -8,7 +8,7 @@ section {
     display: -webkit-box;
     display: flex;
     height: 800px;
-    
+
 
 }
 
@@ -21,6 +21,7 @@ header {
     height: 650px;
     position: relative;
 }
+
 .text {
     position: relative;
     top: 100px;
@@ -52,12 +53,14 @@ footer {
     height: 500px;
 
 }
+
 .do img {
     width: 100%
 }
+
 .what-we-do {
     position: relative;
-    left: 600px;
+    left: 580px;
     top: 80px;
 }
 
@@ -70,14 +73,23 @@ footer {
     width: 100%;
     margin: .0vw;
 }
+
+.p-text {
+    position: relative;
+    left: 600px;
+    top: 80px;
+}
+
 .portfolio img {
     width: 120%;
     height: auto;
 }
+
 @media screen and (max-width: 400px) {
     section .portfolio {
         margin: 0;
     }
+
     section {
         padding: 0;
     }
@@ -98,7 +110,7 @@ footer {
     background-repeat: no-repeat;
     height: 250px;
     padding: 20px;
-    
+
 }
 
 .s-text {
@@ -112,15 +124,20 @@ div img {
     width: 200px;
     box-sizing: border-box;
 }
+
 .middle {
     flex: 1;
 }
+
 footer img {
 
     width: 100%;
-    
+    position: relative;
+    left: 400px;
+
 }
+
 footer div {
     width: 100%;
-    
+
 }
