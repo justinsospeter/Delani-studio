@@ -1,277 +1,154 @@
-section {
-    background-color: white;
-    box-sizing: border-box;
-    display: -ms-flexbox;
-    -ms-flex-box-wrap: wrap;
-    -ms-flexbox-direction: column;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    display: -webkit-box;
-    display: flex;
-    height: 800px;
-
-
-}
-
-header {
-    background-color: black;
-    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
-    background-size: 100%;
-    padding: 20px;
-    color: white;
-    height: 650px;
-    position: relative;
-    text-align: center;
-
-}
-
-.do {
-    height: 400px;
-}
-
-input {
-    width: 200%;
-}
-
-.about {
-    height: 400px;
-}
-
-textarea {
-    width: 200%;
-}
-
-.text {
-    position: relative;
-    top: 190px;
-    text-align: center;
-    width: 100%;
-
-}
-
-
-
-div {
-    margin: auto;
-    width: 100px;
-
-}
-
-div img {
-    margin: auto;
-    width: 100%;
-
-}
-
+  
 body {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-family: 'Libre Franklin', sans-serif;
-
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;	
 }
-
-footer {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    height: 150px;
-    color: white;
-
+.welcome {
+	color: white;
+	cursor: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/mouse_click.png), auto;
+	background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
+	width: 100%;
+	height: 100%;
+	padding-top: 320px;
+	padding-bottom: 220px;
+	background-size: cover;
 }
-
-
-
-
-figure {
-    background-color: white;
-    box-sizing: border-box;
-    display: inline;
-    text-align: center;
-
+.about {
+	color: black;
+	background-color: white;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
-
-figure img {
-    width: 50%;
-
-}
-
-.what {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-}
-
-.what figure {
-    text-align: center;
-    width: 50%;
-}
-.what img {
-    width: 50px;
-}
-
-.what-we-do {
-    text-align: center;
-    top: 80px;
-    width: 100%;
-}
-
-.portfolio {
-    background-color: white;
-    height: 600px;
-    -webkit-box-flex: auto;
-    -ms-flex: auto;
-    flex: auto;
-    width: 100%;
-    padding: 20px;
-    display: block;
-    
-}
-
-.p-text {
-    text-align: center;
-    position: relative;
-    bottom: 70px;
-    color: black;
-    width: 100%;
-}
-
-.portfolio img {
-    width: 180%;
-    height: auto;
-    margin: 0px;
-    
-    
-    
-}
-
-
-
-.contact {
-    background-color: brown;
-    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
-    background-size: 100%;
-    text-align: center;
-    height: 500px;
-    
-}
-
-.contact input {
-    background-color: transparent;
-    
-}
-.contact textarea {
-    background-color: transparent;
-}
-
-.c-text {
-    text-align: center;
-    top: 80px;
-    width: 100%;
-    color: white;
-
-}
-
-.logo img {
-    position: relative;
-    top: 180px;
-    text-align: center;
-    width: 50px;
-
-}
-
-.mouse img {
-    position: relative;
-    top: 350px;
-    width: 30px;
-
-}
-
 .services {
-    background-color: blue;
-    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 250px;
-    padding: 20px;
-
+	color: white;
+	background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+	width: 100%;
+	height: 100%;
+	cursor: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg), auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
+}
+.services2 {
+	width: 80%;
+	margin: auto;
+}
+.what {
+	color: black;
+	background-color: white;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.portfolio {
+	color: black;
+	cursor: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg), auto;
+	background-color: white;
+}
+.contact {
+	color: black;
+	background-color: white;
 }
 
-.s-text {
-    position: relative;
-    bottom: 10px;
-    color: white;
-    width: 100%;
-    text-align: center;
-
+span.intro {
+	font-size: 2.5rem;
+	border: 5px solid;
+	border-radius: 50%;
+	padding: 1rem;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-bottom: 20px;
 }
-
-.a-text {
-    position: relative;
-    bottom: 10px;
-    color: black;
-    width: 100%;
-    text-align: center;
-
+h1.sub-intro {
+	max-width: 300px;
+	/* text-align: center; */
+	width: 100%;
+	margin: auto;
 }
-
-
-
-
-footer img {
-
-    width: 100%;
-    position: relative;
-    left: 400px;
-
+h4.sub-title {
+	max-width: 300px;
+	/* text-align: center; */
+	width: 100%;
+	margin: auto;
 }
-
-.icons  {
-    position: relative;
-    width: 50%;
-    text-align: center;
+.row {
+	padding: 200px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
-
-
-
-.name {
-    background-color: transparent;
-    position: relative;
-    bottom: 160px;
-    left: 210px;
-
-
+.contact {
+	color: white;
+	background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
+	cursor: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg), auto;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	background-size: cover;
 }
-
-.email {
-    position: relative;
-    bottom: 160px;
-    left: 150px;
-}
-
-.textarea {
-    position: relative;
-    top: 20px;
-    right: 540px;
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  input[type=submit] {
     width: 20%;
-    height: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(65, 225, 92);
+  }
+  .social-icons {
+	color: black;
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
-.one2four {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 50px;
-    width: 100%;
-    height: 100px;
-    padding-left: 0px;
-    
-    
+.footer {
+	color: black;
+	background-color: white;
 }
-.four2eight {
-    display: flex;
-    flex-direction: row;
+.icon-wwd, .textwwd {
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 200px;
-   
+}
+.textwwd {
+    display: none;
+}
 
+.description-wwd {
+    position: relative;
+    min-height: 200px;
+}
+#matokeo {
+	text-align: center;
+	font-family: 'Just Another Hand', cursive;
+	padding-top: 20px;
+    font-size: 32px;
 }
