@@ -21,10 +21,15 @@ header {
     color: white;
     height: 650px;
     position: relative;
+    text-align: center;
+    
 }
 
 input {
     width: 200%;
+}
+.about {
+    height: 400px;
 }
 
 textarea {
@@ -33,13 +38,23 @@ textarea {
 
 .text {
     position: relative;
-    top: 100px;
+    top: 190px;
+    text-align: center;
+    width: 100%;
+    
 }
+
 
 
 div {
     margin: auto;
     width: 100px;
+
+}
+
+div img {
+    margin: auto;
+    width: 100%;
 
 }
 
@@ -58,17 +73,20 @@ footer {
 
 }
 
-.do {
-    background-color: white;
-    box-sizing: border-box;
-    height: 500px;
 
+
+
+figure {
+        background-color: white;
+        box-sizing: border-box;
+        text-align: center;
+        
 }
 
-.do img {
-    width: 90%;
+figure img {
+    width: 60%;
     position: relative;
-    right: 60px;
+    
 }
 
 .what-we-do {
@@ -123,6 +141,20 @@ footer {
 
 }
 
+.logo img {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    width: 50px;
+
+}
+.mouse img {
+    position: relative;
+    top: 350px;
+    width: 30px;
+
+}
+
 .services {
     background-color: blue;
     background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
@@ -135,8 +167,18 @@ footer {
 
 .s-text {
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
     color: white;
+    width: 100%;
+    text-align: center;
+
+}
+.a-text {
+    position: relative;
+    bottom: 10px;
+    color: black;
+    width: 100%;
+    text-align: center;
 
 }
 
