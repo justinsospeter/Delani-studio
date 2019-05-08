@@ -66,6 +66,8 @@ div img {
 body {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
 
 }
 
@@ -272,9 +274,4 @@ footer img {
     height: 200px;
    
 
-}
-@media screen and (min-width: 1500px) {
-    header background-image {
-        height: 400px;
-    }
 }
