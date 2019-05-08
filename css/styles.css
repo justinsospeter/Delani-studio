@@ -22,12 +22,17 @@ header {
     height: 650px;
     position: relative;
     text-align: center;
-    
+
+}
+
+.do {
+    height: 400px;
 }
 
 input {
     width: 200%;
 }
+
 .about {
     height: 400px;
 }
@@ -41,7 +46,7 @@ textarea {
     top: 190px;
     text-align: center;
     width: 100%;
-    
+
 }
 
 
@@ -77,16 +82,31 @@ footer {
 
 
 figure {
-        background-color: white;
-        box-sizing: border-box;
-        text-align: center;
-        
+    background-color: white;
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+
 }
 
 figure img {
-    width: 60%;
-    position: relative;
-    
+    width: 50%;
+
+}
+
+.what {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.what figure {
+    text-align: center;
+    width: 50%;
+}
+.what img {
+    width: 50px;
 }
 
 .what-we-do {
@@ -108,11 +128,12 @@ figure img {
 .p-text {
     position: relative;
     left: 600px;
-    top: 80px;
+    top: 20px;
+    color: black;
 }
 
 .portfolio img {
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
@@ -133,6 +154,7 @@ figure img {
     text-align: center;
     height: 500px;
 }
+
 .c-text {
     position: relative;
     left: 600px;
@@ -148,6 +170,7 @@ figure img {
     width: 50px;
 
 }
+
 .mouse img {
     position: relative;
     top: 350px;
@@ -173,6 +196,7 @@ figure img {
     text-align: center;
 
 }
+
 .a-text {
     position: relative;
     bottom: 10px;
@@ -187,9 +211,7 @@ div img {
     box-sizing: border-box;
 }
 
-.middle {
-    flex: 1;
-}
+
 
 footer img {
 
@@ -203,12 +225,14 @@ footer div {
     width: 100%;
 
 }
+
 .name {
     position: relative;
     bottom: 100px;
     left: 180px;
-    
+
 }
+
 .email {
     position: relative;
     bottom: 100px;
