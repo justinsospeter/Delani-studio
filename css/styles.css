@@ -93,18 +93,23 @@ h4.sub-title {
   
   .form-inline label {
     margin: 5px 10px 5px 0;
+    background-color: transparent;
+  }
+
+  .row textarea {
+      background-color: transparent;
   }
   
   .form-inline input {
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid #ddd;
   }
   input[type=submit] {
     width: 20%;
-    background-color: #4CAF50;
+    background-color: transparent;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
