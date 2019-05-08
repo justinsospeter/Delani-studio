@@ -1,5 +1,6 @@
 section {
     background-color: white;
+    box-sizing: border-box;
     display: -ms-flexbox;
     -ms-flex-box-wrap: wrap;
     -ms-flexbox-direction: column;
@@ -22,6 +23,14 @@ header {
     position: relative;
 }
 
+input {
+    width: 200%;
+}
+
+textarea {
+    width: 200%;
+}
+
 .text {
     position: relative;
     top: 100px;
@@ -37,6 +46,7 @@ div {
 body {
     margin: 0px;
     padding: 0px;
+
 }
 
 footer {
@@ -50,6 +60,7 @@ footer {
 
 .do {
     background-color: white;
+    box-sizing: border-box;
     height: 500px;
 
 }
@@ -149,4 +160,23 @@ footer img {
 footer div {
     width: 100%;
 
+}
+.name {
+    position: relative;
+    bottom: 100px;
+    left: 180px;
+    
+}
+.email {
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+}
+
+.textarea {
+    position: relative;
+    top: 80px;
+    right: 540px;
+    width: 20%;
+    height: 60%;
 }
