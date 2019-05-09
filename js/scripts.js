@@ -54,12 +54,12 @@ $(document).ready(function(){
 		$(this).children(".icon-wwd").show();
 		$(this).children(".textwwd").hide();
 	});
-// form thank you user message
+// form thank your user message
 	$("form#fomu").submit(function(event) {
 		event.preventDefault();
 		var jina = $("#name").val();
 		var maili = $("#email").val();
-		var result = justin("Thank you " + jina + " of email address: " +  maili + " for your message. Your feedback is appreciated");
+        var result = alert("Thank you " + jina + " of email address: " +  maili + " for your message. Your feedback is appreciated");
 		$("#matokeo").text(result);
 		document.getElementById("fomu").reset();
 	}); 
